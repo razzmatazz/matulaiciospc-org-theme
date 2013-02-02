@@ -1,4 +1,5 @@
-	</div><!-- end of div#content -->
+            </div></td>
+        </table>
 
 <?php wp_footer(); ?>
 </body>
