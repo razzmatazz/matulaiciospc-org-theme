@@ -13,7 +13,6 @@
 			<div><h1>No posts to display</h1></div>
 		<?php endif; // end have_posts() check ?>
 
-
     </div> <!-- div.post_list -->
 
 <?php get_footer(); ?>
