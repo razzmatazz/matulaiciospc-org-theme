@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
-    color: #1a2557;
+    color: #002e7a;
     font-family: Helvetica;
     font-size: 16;
 }
@@ -47,7 +47,7 @@ table.skeleton_table {
 }
 
 table.skeleton_table tr.header {
-    height: 160px;
+	height: 135px;
 }
 
 table.skeleton_table td {
@@ -65,7 +65,7 @@ a {
 
 div.skeleton_header {
     background-color: #c7d4e4;
-    height: 160px;
+    height: 135px;
     border-bottom: 5px #1a2557 solid;
 }
 
