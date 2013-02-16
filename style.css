@@ -29,6 +29,15 @@ table {
     margin: 0;
 }
 
+ul {
+    padding-start: 0;
+    -webkit-padding-start: 0;
+    margin-before: 0;
+    -webkit-margin-before: 0;
+    margin-after: 0;
+    -webkit-margin-after: 0;
+}
+
 table tr {
     border: 0;
     padding: 0;
@@ -78,18 +87,64 @@ table.skeleton_table td {
 
 table.skeleton_table td.menu {
     width: 180px;
+    background-color: #1a2557;
+}
+
+table.skeleton_table td.menu a {
+    font-family: 'Arial Narrow', 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table.skeleton_table td.menu div.menu > ul > li {
+    display: block;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+    float: right;
+}
+
+table.skeleton_table td.menu div.menu > ul > li > ul {
+    display: none;
+}
+
+table.skeleton_table td.menu div.menu > ul > li.current_page_item > ul,
+    table.skeleton_table td.menu div.menu > ul > li.current_page_ancestor > ul
+{
+    display: block;
+    background-color: #c7d4e4;
+}
+
+table.skeleton_table td.menu div.menu > ul > li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+}
+
+table.skeleton_table td.menu div.menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    height: 35px;
+    width: 175px;
+    display: block;
+    background: url("img/mygtukas.png");
+}
+
+table.skeleton_table td.menu div.menu > ul > li.current_page_item > a,
+    table.skeleton_table td.menu div.menu > ul > li.current_page_ancestor > a
+{
+    background: url("img/mygtukas-aktyvus.png");
+    color: #float
+}
+
+table.skeleton_table td.menu div.menu > ul > li  ul > li.current_page_item > a {
+    color: #df4b21;
 }
 
 a {
     color: #1a2557;
-}
-
-div.skeleton_menu {
-    height: 100%;
-    width: 180px;
-    float: left;
-    background-color: #1a2557;
-    color: #c7d4e4;
+    font-family: Arial;
 }
 
 table.skeleton_content_wrapper_table {

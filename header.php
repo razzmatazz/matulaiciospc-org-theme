@@ -27,7 +27,9 @@
         </tr>
         <tr>
             <td class="menu">
-                <div class="skeleton_menu"><?php get_sidebar(); ?></div>
+                <?php //wp_nav_menu( array( 'walker' => new MV_Cleaner_Walker_Nav_Menu() ) );
+                    wp_nav_menu();
+                ?>
             </td>
             <td>
                 <table class="skeleton_content_wrapper_table">
