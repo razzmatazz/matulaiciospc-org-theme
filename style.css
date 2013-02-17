@@ -53,38 +53,42 @@ table td {
     margin: 0;
 }
 
-table.skeleton_table {
-    height: 100%;
-    width: 100%;
-}
-
-table.skeleton_table tr.header {
+div.spc_header {
 	height: 135px;
     background-color: #c7d4e4;
     border-bottom: 5px #1a2557 solid;
+    overflow: hidden;
+    min-width: 870px;
 }
 
-table.skeleton_table tr.header td.left {
+div.spc_header div.left {
+    float: left;
+    width: 180px;
     text-align: center;
     vertical-align: middle;
 }
 
-table.skeleton_table tr.header td.middle {
+div.spc_header div.middle {
+    float: left;
 }
 
-table.skeleton_table tr.header td.middle div.title {
+div.spc_header div.middle div.title {
     padding-top: 35px;
-    float: left;
     font-family: 'Arial Narrow', 'Arial';
     font-size: 30px;
     font-weight: bold;
     white-space: nowrap;
 }
 
-table.skeleton_table tr.header td.right {
+div.spc_header div.right {
+    float: right;
     width: 328px;
 }
 
+table.skeleton_table {
+    height: 100%;
+    width: 100%;
+}
 table.skeleton_table td {
     vertical-align: top;
     text-align: left;
