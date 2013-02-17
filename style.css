@@ -32,10 +32,13 @@ table {
 ul {
     padding-start: 0;
     -webkit-padding-start: 0;
+    -moz-padding-start: 0;
     margin-before: 0;
     -webkit-margin-before: 0;
+    -moz-margin-before: 0;
     margin-after: 0;
     -webkit-margin-after: 0;
+    -moz-margin-after: 0;
 }
 
 table tr {
@@ -80,24 +83,6 @@ table.skeleton_table tr.header td.right div.title {
     font-weight: bold;
 }
 
-table.skeleton_table tr.header div.language_switcher {
-    float: left;
-}
-
-table.skeleton_table tr.header div.language_switcher a {
-    display: block;
-    width: 30px;
-    height: 19px;
-}
-
-table.skeleton_table tr.header div.language_switcher a.ltu {
-    background-image: url("img/lt-flag.png");
-}
-
-table.skeleton_table tr.header div.language_switcher a.eng {
-    background-image: url("img/eng-flag.png");
-}
-
 table.skeleton_table td {
     vertical-align: top;
     text-align: left;
@@ -106,6 +91,25 @@ table.skeleton_table td {
 table.skeleton_table td.menu {
     width: 180px;
     background-color: #1a2557;
+}
+
+table.skeleton_content_wrapper_table div.language_switcher {
+}
+
+table.skeleton_content_wrapper_table div.language_switcher a {
+    display: block;
+    width: 30px;
+    height: 19px;
+    margin: 5px;
+    float: left;
+}
+
+table.skeleton_content_wrapper_table div.language_switcher a.ltu {
+    background-image: url("img/lt-flag.png");
+}
+
+table.skeleton_content_wrapper_table div.language_switcher a.eng {
+    background-image: url("img/eng-flag.png");
 }
 
 table.skeleton_table td.menu a {

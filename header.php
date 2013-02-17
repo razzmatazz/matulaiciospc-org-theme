@@ -21,11 +21,7 @@
                     <div>Pal. J. Matulaičio</div>
                     <div>Šeimos pagalbos centras</div>
                 </div>
-                <div class="language_switcher">
-                    <a href="" class="ltu"></a>
-                    <a href="" class="eng"></a>
-                </div>
-            </td>
+             </td>
         </tr>
         <tr>
             <td class="menu">
@@ -36,7 +32,12 @@
                     <tr>
                         <td class="tl"></td>
                         <td class="tm"></td>
-                        <td class="tr"></td>
+                        <td class="tr">
+                           <div class="language_switcher">
+                                <a href="" class="ltu"></a>
+                                <a href="" class="eng"></a>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td class="bl"></td>
