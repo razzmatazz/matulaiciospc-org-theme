@@ -69,18 +69,20 @@ table.skeleton_table tr.header td.left {
     vertical-align: middle;
 }
 
-table.skeleton_table tr.header td.right {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: 200px;
-    background-position-y: 28px;
+table.skeleton_table tr.header td.middle {
 }
 
-table.skeleton_table tr.header td.right div.title {
+table.skeleton_table tr.header td.middle div.title {
+    padding-top: 35px;
     float: left;
     font-family: 'Arial Narrow', 'Arial';
     font-size: 30px;
     font-weight: bold;
+    white-space: nowrap;
+}
+
+table.skeleton_table tr.header td.right {
+    width: 328px;
 }
 
 table.skeleton_table td {

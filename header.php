@@ -16,18 +16,21 @@
             <td class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
             </td>
-            <td class="right" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/fono-logo.png);">
+            <td class="middle">
                 <div class="title">
                     <div>Pal. J. Matulaičio</div>
                     <div>Šeimos pagalbos centras</div>
                 </div>
+            </td>
+            <td class="right">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fono-logo.png" alt="">
              </td>
         </tr>
         <tr>
             <td class="menu">
                 <?php wp_nav_menu(); ?>
             </td>
-            <td>
+            <td colspan="2">
                 <table class="skeleton_content_wrapper_table">
                     <tr>
                         <td class="tl"></td>
