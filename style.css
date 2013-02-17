@@ -80,6 +80,24 @@ table.skeleton_table tr.header td.right div.title {
     font-weight: bold;
 }
 
+table.skeleton_table tr.header div.language_switcher {
+    float: left;
+}
+
+table.skeleton_table tr.header div.language_switcher a {
+    display: block;
+    width: 30px;
+    height: 19px;
+}
+
+table.skeleton_table tr.header div.language_switcher a.ltu {
+    background-image: url("img/lt-flag.png");
+}
+
+table.skeleton_table tr.header div.language_switcher a.eng {
+    background-image: url("img/eng-flag.png");
+}
+
 table.skeleton_table td {
     vertical-align: top;
     text-align: left;

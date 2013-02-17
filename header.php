@@ -21,15 +21,15 @@
                     <div>Pal. J. Matulaičio</div>
                     <div>Šeimos pagalbos centras</div>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/lt-flag.png">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/eng-flag.png">
+                <div class="language_switcher">
+                    <a href="" class="ltu"></a>
+                    <a href="" class="eng"></a>
+                </div>
             </td>
         </tr>
         <tr>
             <td class="menu">
-                <?php //wp_nav_menu( array( 'walker' => new MV_Cleaner_Walker_Nav_Menu() ) );
-                    wp_nav_menu();
-                ?>
+                <?php wp_nav_menu(); ?>
             </td>
             <td>
                 <table class="skeleton_content_wrapper_table">
