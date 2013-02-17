@@ -34,11 +34,11 @@
             <td>
                 <table class="skeleton_content_wrapper_table">
                     <tr>
-                        <td style="height: 50px; width: 50px; background-image: url(<?php echo get_template_directory_uri(); ?>/img/gradient-kv.png);"></td>
-                        <td style="height: 50px; background-image: url(<?php echo get_template_directory_uri(); ?>/img/gradient-v.png);"></td>
-                        <td style="height: 50px; width: 50px; background-image: url(<?php echo get_template_directory_uri(); ?>/img/gradient-dv.png);"></td>
+                        <td class="tl"></td>
+                        <td class="tm"></td>
+                        <td class="tr"></td>
                     </tr>
                     <tr>
-                        <td style="width: 50px; background-image: url(<?php echo get_template_directory_uri(); ?>/img/gradient-k.png);"></td>
+                        <td class="bl"></td>
                         <td class="content">
 

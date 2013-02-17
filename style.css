@@ -155,3 +155,60 @@ table.skeleton_content_wrapper_table {
     width: 100%;
 }
 
+table.skeleton_content_wrapper_table > tbody > tr > td.tl {
+    height: 50px;
+    width: 50px;
+    background-image: url(img/gradient-kv.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.tm {
+    height: 50px;
+    background-image: url(img/gradient-v.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.tr {
+    height: 50px;
+    width: 50px;
+    background-image: url(img/gradient-dv.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.bl {
+    width: 50px;
+    background-image: url(img/gradient-k.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br {
+    width: 50px;
+    background-image: url(img/gradient-d.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_1 {
+    width: 25px;
+    height: 25px;
+    background-image: url(img/burbuliukas-1.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_2 {
+    width: 34px;
+    height: 34px;
+    background-image: url(img/burbuliukas-2.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_3 {
+    width: 44px;
+    height: 44px;
+    background-image: url(img/burbuliukas-3.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_4 {
+    width: 126px;
+    height: 217px;
+    background-image: url(img/burbuliukas-4.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.logo_inactive {
+    width: 70px;
+    height: 73px;
+    background-image: url(img/logo-neaktyvus.png);
+}
+
