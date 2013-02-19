@@ -1,0 +1,29 @@
+
+table.skeleton_table tr.spc_header {
+    display: none;
+}
+
+table.skeleton_table td.menu {
+    display: none;
+}
+
+table.skeleton_content_wrapper_table {
+    border: none;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr.top {
+    display: none;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br {
+    display: none;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.bl {
+    display: none;
+}
+
+div.post_list div.post_entry div.title {
+    color: black;
+}
+

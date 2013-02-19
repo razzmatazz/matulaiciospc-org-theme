@@ -219,33 +219,50 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br {
     vertical-align: bottom;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_1 {
-    width: 25px;
-    height: 25px;
-    background-image: url(img/burbuliukas-1.png);
-}
-
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_2 {
-    width: 34px;
-    height: 34px;
-    background-image: url(img/burbuliukas-2.png);
-}
-
 table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_3 {
     width: 44px;
     height: 44px;
     background-image: url(img/burbuliukas-3.png);
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_4 {
     width: 126px;
     height: 217px;
     background-image: url(img/burbuliukas-4.png);
+    margin-bottom: 30px;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.logo_inactive {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_2 {
+    width: 34px;
+    height: 34px;
+    background-image: url(img/burbuliukas-2.png);
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_1 {
+    width: 25px;
+    height: 25px;
+    background-image: url(img/burbuliukas-1.png);
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.logo {
     width: 70px;
     height: 73px;
     background-image: url(img/logo-neaktyvus.png);
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+div.post_list div.post_entry div.title {
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #df4b21;
 }
 

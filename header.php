@@ -7,8 +7,8 @@
     <?php if (is_singular() && get_option("thread_comments") ) wp_enqueue_script("comment-reply"); ?>
     <?php wp_head(); ?>
 
-    <!-- TODO: there should be a better way, right? -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"></link>
+    <link rel="stylesheet" type="text/css" media="print" href="<?php echo get_template_directory_uri(); ?>/style-print.css"></link>
 </head>
 <body <?php body_class(); ?>>
     <table class="skeleton_table">
@@ -34,12 +34,13 @@
             </td>
             <td colspan="2">
                 <table class="skeleton_content_wrapper_table">
-                    <tr>
+                    <tr class="top">
                         <td class="tl"></td>
                         <td class="tm"></td>
                         <td class="tr">
                            <div class="language_switcher">
-                                <a href="" class="ltu"></a>
+                                <a href="/" class="ltu"></a>
+                                <!-- add link to english intro page -->
                                 <a href="" class="eng"></a>
                             </div>
                         </td>
