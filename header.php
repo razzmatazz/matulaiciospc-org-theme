@@ -11,23 +11,23 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"></link>
 </head>
 <body <?php body_class(); ?>>
-    <div class="spc_header">
-        <div class="left">
-            <a href="/">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
-            </a>
-        </div>
-        <div class="middle">
-            <div class="title">
-                <div>Pal. J. Matulaičio</div>
-                <div>Šeimos pagalbos centras</div>
-            </div>
-        </div>
-        <div class="right">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/fono-logo.png" alt="">
-        </div>
-    </div>
     <table class="skeleton_table">
+        <tr class="spc_header">
+            <td class="left">
+                <a href="/">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
+                </a>
+            </td>
+            <td class="middle">
+                <div class="title">
+                    <div>Pal. J. Matulaičio</div>
+                    <div>Šeimos pagalbos centras</div>
+                </div>
+            </td>
+            <td class="right">
+                <div class="with_bg_logo"></div>
+            </td>
+        </tr>
         <tr>
             <td class="menu">
                 <?php wp_nav_menu(); ?>

@@ -53,26 +53,27 @@ table td {
     margin: 0;
 }
 
-div.spc_header {
+table.skeleton_table {
+    height: 100%;
+    width: 100%;
+}
+
+table.skeleton_table tr.spc_header {
 	height: 135px;
     background-color: #c7d4e4;
     border-bottom: 5px #1a2557 solid;
-    overflow: hidden;
-    min-width: 870px;
+//    overflow: hidden;
+//    min-width: 870px;
 }
 
-div.spc_header div.left {
-    float: left;
+table.skeleton_table tr.spc_header td.left {
+    min-width: 180px;
     width: 180px;
     text-align: center;
     vertical-align: middle;
 }
 
-div.spc_header div.middle {
-    float: left;
-}
-
-div.spc_header div.middle div.title {
+table.skeleton_table tr.spc_header td.middle {
     padding-top: 35px;
     font-family: 'Arial Narrow', 'Arial';
     font-size: 30px;
@@ -80,15 +81,14 @@ div.spc_header div.middle div.title {
     white-space: nowrap;
 }
 
-div.spc_header div.right {
-    float: right;
+table.skeleton_table tr.spc_header td.right div.with_bg_logo {
+    background-image: url(img/fono-logo.png);
     width: 328px;
+    height: 135px;
+    float: right;
+    margin-right: 20px;
 }
 
-table.skeleton_table {
-    height: 100%;
-    width: 100%;
-}
 table.skeleton_table td {
     vertical-align: top;
     text-align: left;
@@ -192,6 +192,7 @@ table.skeleton_content_wrapper_table {
 table.skeleton_content_wrapper_table > tbody > tr > td.tl {
     height: 50px;
     width: 50px;
+    min-width: 50px;
     background-image: url(img/gradient-kv.png);
 }
 
@@ -203,6 +204,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.tm {
 table.skeleton_content_wrapper_table > tbody > tr > td.tr {
     height: 50px;
     width: 50px;
+    min-width: 50px;
     background-image: url(img/gradient-dv.png);
 }
 
