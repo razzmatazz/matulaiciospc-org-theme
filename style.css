@@ -219,7 +219,11 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br {
     vertical-align: bottom;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_3 {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble {
+    display: none;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_3 {
     width: 44px;
     height: 44px;
     background-image: url(img/burbuliukas-3.png);
@@ -227,14 +231,24 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_3 {
     margin-left: 30px;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_4 {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_4 {
     width: 126px;
     height: 217px;
     background-image: url(img/burbuliukas-4.png);
     margin-bottom: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_2 {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_text {
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+    overflow: hidden;
+    max-height: 185;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_2 {
     width: 34px;
     height: 34px;
     background-image: url(img/burbuliukas-2.png);
@@ -242,7 +256,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_2 {
     margin-left: 60px;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_1 {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_1 {
     width: 25px;
     height: 25px;
     background-image: url(img/burbuliukas-1.png);
@@ -250,12 +264,19 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_1 {
     margin-left: 50px;
 }
 
-table.skeleton_content_wrapper_table > tbody > tr > td.br div.logo {
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_logo {
     width: 70px;
     height: 73px;
     background-image: url(img/logo-neaktyvus.png);
+//    margin: 0px 25px 10px 25px;
+    cursor: pointer;
     margin-left: 25px;
     margin-bottom: 10px;
+    margin-right: 35px;
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.br div.bubble_logo_active {
+    background-image: url(img/logo-aktyvus.png);
 }
 
 div.post_list div.post_entry div.title {
