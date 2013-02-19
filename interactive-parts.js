@@ -1,4 +1,28 @@
 $(document).ready(function() {
+
+    // this helps improve apparent interactives of the site
+    // by expanding menu items before the new page has loaded
+    $("div.menu > ul > li.page_item > a").click(function() {
+
+        $("div.menu > ul > li.current_page_item")
+            .removeClass("current_page_item");
+
+        $("div.menu > ul > li.current_page_ancestor")
+            .removeClass("current_page_ancestor");
+
+        $(this).parent()
+            .addClass("current_page_item")
+            .find(".children").show();
+    });
+
+    var innerMenuAnchors = $("div.menu > ul > li.page_item ul > li > a");
+    innerMenuAnchors.click(function() {
+        innerMenuAnchors.removeClass("current_page_item");
+        $(this).parent().addClass("current_page_item");
+    });
+
+    // bubbles at the bottom right
+    //
     var bubbles = $(".bubble")
     var bubblesAreShown = false;
 
@@ -21,6 +45,6 @@ $(document).ready(function() {
             }
 
             bubblesAreShown = !bubblesAreShown;
-        })
+        });
 });
 

@@ -174,6 +174,7 @@ table.skeleton_table td.menu div.menu > ul > li.current_page_item > a,
 
 table.skeleton_table td.menu div.menu > ul > li  ul > li.current_page_item > a {
     color: #df4b21;
+    font-weight: bold;
 }
 
 a {
