@@ -16,7 +16,7 @@
     <table class="skeleton_table">
         <tr class="spc_header">
             <td class="left">
-                <a href="/">
+                <a id="top_left_spc_logo" href="/">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
                 </a>
             </td>

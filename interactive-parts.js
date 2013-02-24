@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    
+    // TODO: use session storage? to do this only once
+    //$("#top_left_spc_logo").show("slow");
 
     // this helps improve apparent interactives of the site
     // by expanding menu items before the new page has loaded

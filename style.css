@@ -73,6 +73,12 @@ table.skeleton_table tr.spc_header td.left {
     vertical-align: middle;
 }
 
+/*
+a#top_left_spc_logo {
+    display: none;
+}
+*/
+
 table.skeleton_table tr.spc_header td.middle {
     padding-top: 35px;
     font-family: 'Arial Narrow', 'Arial';
