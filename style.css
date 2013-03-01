@@ -13,6 +13,10 @@ Text Domain: matulaiciospc
 SPC theme.
 */
 
+html {
+    height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -20,6 +24,7 @@ body {
     color: #002e7a;
     font-family: Helvetica;
     font-size: 16;
+    height: 100%;
 }
 
 table {
