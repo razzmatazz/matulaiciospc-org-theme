@@ -110,10 +110,15 @@ table.skeleton_content_wrapper_table div.language_switcher {
 
 table.skeleton_content_wrapper_table div.language_switcher a {
     display: block;
-    width: 30px;
-    height: 19px;
-    margin: 5px;
+    width: 28px;
+    height: 17px;
+    margin: 7px;
     float: left;
+}
+
+table.skeleton_content_wrapper_table div.language_switcher a.active {
+    border: solid #002e7a 2px;
+    margin: 5px;
 }
 
 table.skeleton_content_wrapper_table div.language_switcher a.ltu {

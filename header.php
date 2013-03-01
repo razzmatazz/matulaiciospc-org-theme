@@ -16,14 +16,25 @@
     <table class="skeleton_table">
         <tr class="spc_header">
             <td class="left">
-                <a id="top_left_spc_logo" href="/">
+                <a id="top_left_spc_logo"
+                    <?php if (isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>
+                        href="?lang=en"
+                    <?php } else { ?>
+                        href="?lang=lt"
+                    <?php } ?>
+                    >
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
                 </a>
             </td>
             <td class="middle">
                 <div class="title">
-                    <div>Pal. J. Matulaičio</div>
-                    <div>Šeimos pagalbos centras</div>
+                    <?php if (isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>
+                        <div>Blessed J. Matulaitis</div>
+                        <div>Family Care Center</div>
+                    <?php } else { ?>
+                        <div>Pal. J. Matulaičio</div>
+                        <div>Šeimos pagalbos centras</div>
+                    <?php } ?>
                 </div>
             </td>
             <td class="right">
@@ -41,9 +52,8 @@
                         <td class="tm"></td>
                         <td class="tr">
                            <div class="language_switcher">
-                                <a href="/" class="ltu"></a>
-                                <!-- add link to english intro page -->
-                                <a href="" class="eng"></a>
+                                <a href="?lang=lt" class="ltu <?php if(!isset($_REQUEST['lang']) || $_REQUEST['lang'] == 'lt') { ?>active<?php } ?>"></a>
+                                <a href="?lang=en" class="eng <?php if(isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>active<?php } ?>"></a>
                             </div>
                         </td>
                     </tr>
