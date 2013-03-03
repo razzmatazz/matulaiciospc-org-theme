@@ -2,7 +2,9 @@
                         <td class="br">
                             <div id="bubble_4" class="bubble">
                                 <div id="bubble_text">
-                                    Čia turėtų būti ilgesnis tekstas. Aaaa bbb ccc.
+                                    &quot;Jei kas mane myli, laikysis mano žodžio,
+                                    ir mano Tėvas jį mylės; mes pas jį ateisim
+                                    ir apsigyvensim.&quot; Jn 14,23
                                 </div>
                             </div>
                             <div id="bubble_3" class="bubble"></div>
