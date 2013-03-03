@@ -41,7 +41,7 @@
                 <div class="with_bg_logo"></div>
             </td>
         </tr>
-        <tr>
+        <tr class="spc_menu_plus_content">
             <td class="menu">
                 <?php wp_nav_menu(); ?>
             </td>

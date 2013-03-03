@@ -53,9 +53,13 @@ ul {
     margin-after: 0;
     -webkit-margin-after: 0;
     -moz-margin-after: 0;
+    padding: 0;
+    margin: 0;
 }
 
 li {
+    padding: 0;
+    margin: 0;
     display: inline;
 }
 
@@ -99,6 +103,10 @@ a#top_left_spc_logo {
 a#top_left_spc_logo img.logo_img {
     padding-top: 2px;
     border: 0;
+}
+
+table.skeleton_table tr.spc_menu_plus_content > td {
+    height: 100%;
 }
 
 table.skeleton_table tr.spc_header td.middle {
@@ -255,6 +263,9 @@ table.skeleton_content_wrapper_table > tbody > tr > td.tr {
 table.skeleton_content_wrapper_table > tbody > tr > td.bl {
     width: 50px;
     background-image: url(img/gradient-k.png);
+}
+
+table.skeleton_content_wrapper_table > tbody > tr > td.bm {
 }
 
 table.skeleton_content_wrapper_table > tbody > tr > td.br {
