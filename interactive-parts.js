@@ -43,7 +43,14 @@ $(document).ready(function() {
                 $(this).addClass("bubble_logo_active");
             }
             else {
-                bubbles.hide('fast');
+                $("#bubble_4").hide('fast', function() {
+                    $("#bubble_3").hide('fast', function() {
+                        $("#bubble_2").hide('fast', function() {
+                            $("#bubble_1").hide('fast');
+                        });
+                    });
+                });
+
                 $(this).removeClass("bubble_logo_active");
             }
 

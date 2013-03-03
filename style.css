@@ -257,7 +257,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_3 {
     width: 44px;
     height: 44px;
     background-image: url(img/burbuliukas-3.png);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-left: 30px;
 }
 
@@ -265,7 +265,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_4 {
     width: 126px;
     height: 217px;
     background-image: url(img/burbuliukas-4.png);
-    margin-bottom: 30px;
+    margin-bottom: 7px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -282,7 +282,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_2 {
     width: 34px;
     height: 34px;
     background-image: url(img/burbuliukas-2.png);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 60px;
 }
 
@@ -290,7 +290,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_1 {
     width: 25px;
     height: 25px;
     background-image: url(img/burbuliukas-1.png);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 50px;
 }
 
