@@ -98,6 +98,7 @@ a#top_left_spc_logo {
 
 a#top_left_spc_logo img.logo_img {
     padding-top: 2px;
+    border: 0;
 }
 
 table.skeleton_table tr.spc_header td.middle {
