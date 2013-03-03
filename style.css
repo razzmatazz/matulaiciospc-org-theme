@@ -35,6 +35,7 @@ table {
 }
 
 ul {
+    display: inline;
     padding-start: 0;
     -webkit-padding-start: 0;
     -moz-padding-start: 0;
