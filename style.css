@@ -153,6 +153,7 @@ table.skeleton_table td.menu div.menu > ul > li {
     color: white;
     text-align: center;
     float: right;
+    padding-bottom: 5px;
 }
 
 table.skeleton_table td.menu div.menu > ul > li > ul {
@@ -174,7 +175,9 @@ table.skeleton_table td.menu div.menu > ul > li a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 175px;
+    width: 165px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 table.skeleton_table td.menu div.menu > ul > li > a {
@@ -184,6 +187,13 @@ table.skeleton_table td.menu div.menu > ul > li > a {
     display: block;
     background: url("img/mygtukas.png");
 }
+
+table.skeleton_table td.menu div.menu > ul > li  ul > li > a {
+    color: #df4b21;
+    font-weight: bold;
+    color: #002e7a;
+}
+
 
 table.skeleton_table td.menu div.menu > ul > li.current_page_item > a,
     table.skeleton_table td.menu div.menu > ul > li.current_page_ancestor > a
