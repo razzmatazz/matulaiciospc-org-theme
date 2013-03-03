@@ -17,13 +17,13 @@
         <tr class="spc_header">
             <td class="left">
                 <a id="top_left_spc_logo"
-                    <?php if (isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>
-                        href="?lang=en"
-                    <?php } else { ?>
-                        href="?lang=lt"
-                    <?php } ?>
+                        <?php if (isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>
+                            href="?lang=en"
+                        <?php } else { ?>
+                            href="?lang=lt"
+                        <?php } ?>
                     >
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" style="padding-top: 12px;" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo_img" alt="">
                 </a>
             </td>
             <td class="middle">

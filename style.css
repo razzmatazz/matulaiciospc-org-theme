@@ -64,7 +64,7 @@ table.skeleton_table {
 }
 
 table.skeleton_table tr.spc_header {
-	height: 135px;
+	height: 100px;
     background-color: #c7d4e4;
     border-bottom: 5px #1a2557 solid;
 //    overflow: hidden;
@@ -78,14 +78,17 @@ table.skeleton_table tr.spc_header td.left {
     vertical-align: middle;
 }
 
-/*
 a#top_left_spc_logo {
-    display: none;
+    display: block;
+    height: 100px;
 }
-*/
+
+a#top_left_spc_logo img.logo_img {
+    padding-top: 2px;
+}
 
 table.skeleton_table tr.spc_header td.middle {
-    padding-top: 35px;
+    padding-top: 15px;
     font-family: 'Arial Narrow', 'Arial';
     font-size: 30px;
     font-weight: bold;
@@ -95,9 +98,9 @@ table.skeleton_table tr.spc_header td.middle {
 table.skeleton_table tr.spc_header td.right div.with_bg_logo {
     background-image: url(img/fono-logo.png);
     width: 328px;
-    height: 135px;
+    height: 100px;
     float: right;
-    margin-right: 20px;
+    margin-right: 70px;
 }
 
 table.skeleton_table td {
