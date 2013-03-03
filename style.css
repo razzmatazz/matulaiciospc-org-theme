@@ -34,6 +34,14 @@ table {
     margin: 0;
 }
 
+img {
+    border: 0;
+}
+
+a img {
+    border: 0;
+}
+
 ul {
     display: inline;
     padding-start: 0;
