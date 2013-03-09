@@ -301,7 +301,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_text {
     padding: 10px;
     overflow: hidden;
     max-height: 185;
-    color: #e77817;
+    color: #ff9124;
 }
 
 table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_2 {
@@ -340,6 +340,6 @@ div.post_list div.post_entry div.title {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    color: #e77817;
+    color: #ff9124;
 }
 
