@@ -28,8 +28,23 @@ $(document).ready(function() {
     //
     var bubbles = $(".bubble")
     var bubblesAreShown = false;
+    var bubblesLogoOnHover = false;
 
-    $("#bubble_logo")
+    var bubbleLogo = $("#bubble_logo");
+
+    var updateLogo = function() {
+        if (bubblesAreShown || bubblesLogoOnHover) {
+            bubbleLogo.addClass("bubble_logo_active");
+        } else {
+            bubbleLogo.removeClass("bubble_logo_active");
+        }
+    };
+
+    bubbleLogo
+        .hover(
+            function() { bubblesLogoOnHover = true; updateLogo(); },
+            function() { bubblesLogoOnHover = false; updateLogo(); }
+        )
         .click(function() {
             if (!bubblesAreShown) {
                 $("#bubble_1").show('normal', function() {
@@ -39,8 +54,6 @@ $(document).ready(function() {
                         });
                     });
                 });
-
-                $(this).addClass("bubble_logo_active");
             }
             else {
                 $("#bubble_4").hide('fast', function() {
@@ -55,6 +68,7 @@ $(document).ready(function() {
             }
 
             bubblesAreShown = !bubblesAreShown;
+            updateLogo();
         });
 });
 
