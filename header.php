@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>"></link>
     <link rel="stylesheet" type="text/css" media="print" href="<?php echo get_template_directory_uri(); ?>/style-print.css"></link>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/jquery-1.8.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/interactive-parts.js"></script>
 </head>
 <body <?php body_class(); ?>>
