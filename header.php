@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo("charset") ?>"></meta>
-    <title><?php wp_title(); ?></title>
+    <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="pingback" href="<?php bloginfo("pingback_url"); ?>"></link>
     <?php if (is_singular() && get_option("thread_comments") ) wp_enqueue_script("comment-reply"); ?>
     <?php wp_head(); ?>
