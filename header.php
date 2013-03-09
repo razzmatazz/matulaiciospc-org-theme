@@ -29,8 +29,8 @@
             <td class="middle">
                 <div class="title">
                     <?php if (isset($_REQUEST['lang']) && $_REQUEST['lang'] == 'en') { ?>
-                        <div>Blessed J. Matulaitis</div>
-                        <div>Family Care Center</div>
+                        <div>The Blessed J. Matulaitis</div>
+                        <div>Family Support Center</div>
                     <?php } else { ?>
                         <div>Pal. J. Matulaičio</div>
                         <div>Šeimos pagalbos centras</div>
