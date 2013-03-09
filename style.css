@@ -21,7 +21,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
-    color: #002e7a;
+    color: #23337e;
     font-family: Helvetica;
     font-size: 16;
     height: 100%;
@@ -82,8 +82,8 @@ table.skeleton_table {
 
 table.skeleton_table tr.spc_header {
 	height: 100px;
-    background-color: #c7d4e4;
-    border-bottom: 5px #1a2557 solid;
+    background-color: #b2d7e8;
+    border-bottom: 5px #23337e solid;
 //    overflow: hidden;
 //    min-width: 870px;
 }
@@ -132,7 +132,7 @@ table.skeleton_table td {
 
 table.skeleton_table td.menu {
     width: 180px;
-    background-color: #1a2557;
+    background-color: #23337e;
 }
 
 table.skeleton_content_wrapper_table div.language_switcher {
@@ -147,7 +147,7 @@ table.skeleton_content_wrapper_table div.language_switcher a {
 }
 
 table.skeleton_content_wrapper_table div.language_switcher a.active {
-    border: solid #002e7a 2px;
+    border: solid #23337e 2px;
     margin: 5px;
 }
 
@@ -186,14 +186,14 @@ table.skeleton_table td.menu div.menu > ul > li.current_page_item > ul,
     table.skeleton_table td.menu div.menu > ul > li.current_page_ancestor > ul
 {
     display: block;
-    background-color: #c7d4e4;
+    background-color: #b2d7e8;
 }
 
 table.skeleton_table td.menu div.menu > ul > li a {
     color: white;
     text-decoration: none;
     display: block;
-    font-weight: normal;
+    font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -211,7 +211,7 @@ table.skeleton_table td.menu div.menu > ul > li > a {
 }
 
 table.skeleton_table td.menu div.menu > ul > li  ul > li > a {
-    color: #df4b21;
+    color: #e77817;
     font-weight: bold;
     color: #002e7a;
 }
@@ -224,12 +224,12 @@ table.skeleton_table td.menu div.menu > ul > li.current_page_item > a,
 }
 
 table.skeleton_table td.menu div.menu > ul > li  ul > li.current_page_item > a {
-    color: #df4b21;
+    color: white;
     font-weight: bold;
 }
 
 a {
-    color: #1a2557;
+    color: #23337e;
     font-family: Arial;
 }
 
@@ -237,7 +237,7 @@ table.skeleton_content_wrapper_table {
     font-family: Helvetica;
     font-size: 16;
     height: 100%;
-    border-left: 9px #df4b21 solid;
+    border-left: 9px #e77817 solid;
     width: 100%;
 }
 
@@ -301,7 +301,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_text {
     padding: 10px;
     overflow: hidden;
     max-height: 185;
-    color: #df4b21;
+    color: #e77817;
 }
 
 table.skeleton_content_wrapper_table > tbody > tr > td.br div#bubble_2 {
@@ -340,6 +340,6 @@ div.post_list div.post_entry div.title {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
-    color: #df4b21;
+    color: #e77817;
 }
 
