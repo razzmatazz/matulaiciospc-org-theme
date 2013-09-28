@@ -273,7 +273,7 @@ table.skeleton_content_wrapper_table > tbody > tr > td.bm {
 }
 
 table.skeleton_content_wrapper_table > tbody > tr > td.br {
-    width: 50px;
+    width: 65px;
     background-image: url(img/gradient-d.png);
     vertical-align: bottom;
 }

@@ -1,4 +1,4 @@
-                        </td>
+                        </td> <!-- td.content -->
                         <td class="br">
                             <div id="bubble_4" class="bubble">
                                 <div id="bubble_text">
@@ -12,6 +12,7 @@
                             <div id="bubble_1" class="bubble"></div>
                             <div id="bubble_logo" class="bubble_logo"></div>
                         </td>
+                    </tr>
                 </table>
             </td>
         </table>
