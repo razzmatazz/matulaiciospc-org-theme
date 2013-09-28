@@ -50,7 +50,21 @@
                 <table class="skeleton_content_wrapper_table">
                     <tr class="top">
                         <td class="tl"></td>
-                        <td class="tm"></td>
+                        <td class="tm">
+                            <script>
+                              (function() {
+                                var cx = '005429588548303498524:1o6difrxbrs';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                    '//www.google.com/cse/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                              })();
+                            </script>
+                            <gcse:search></gcse:search>
+                        </td>
                         <td class="tr">
                            <div class="language_switcher">
                                 <a href="?lang=lt" class="ltu <?php if(!isset($_REQUEST['lang']) || $_REQUEST['lang'] == 'lt') { ?>active<?php } ?>"></a>

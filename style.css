@@ -22,7 +22,7 @@ body {
     margin: 0;
     background-color: #ffffff;
     color: #23337e;
-    font-family: Helvetica;
+    font-family: 'Times';
     font-size: 16;
     height: 100%;
 }
@@ -111,7 +111,7 @@ table.skeleton_table tr.spc_menu_plus_content > td {
 
 table.skeleton_table tr.spc_header td.middle {
     padding-top: 15px;
-    font-family: 'Arial';
+    font-family: 'Times';
     font-size: 30px;
     font-weight: bold;
     white-space: nowrap;
@@ -160,7 +160,7 @@ table.skeleton_content_wrapper_table div.language_switcher a.eng {
 }
 
 table.skeleton_table td.menu a {
-    font-family: Arial;
+    font-family: 'Times';
     font-weight: bold;
     font-size: 14px;
 }
@@ -212,8 +212,12 @@ table.skeleton_table td.menu div.menu > ul > li > a {
 
 table.skeleton_table td.menu div.menu > ul > li  ul > li > a {
     color: #e77817;
-    font-weight: bold;
+    font-weight: normal;
     color: #002e7a;
+}
+
+table.skeleton_table td.menu div.menu > ul > li  ul > li:not(:first-child) > a {
+    border-top: 1px solid white;
 }
 
 
@@ -230,11 +234,11 @@ table.skeleton_table td.menu div.menu > ul > li  ul > li.current_page_item > a {
 
 a {
     color: #23337e;
-    font-family: Arial;
+    font-family: 'Times';
 }
 
 table.skeleton_content_wrapper_table {
-    font-family: Helvetica;
+    font-family: 'Times';
     font-size: 16;
     height: 100%;
     border-left: 9px #e77817 solid;
